@@ -1,0 +1,28 @@
+<div class="alert alert-info" role="alert">
+	Username: admin \\
+	Password: admin
+</div>
+
+<fieldset [disabled]="isLoading">
+	<form (ngSubmit)="login()" [formGroup]="loginForm">
+		<div class="form-group">
+			<label class="d-block">
+				<form-control name="userName" [group]="loginForm" [formType]="formTypes.Text" placeholder="auth.userName"></form-control>
+			</label>
+		</div>
+		<div class="form-group">
+			<label class="d-block">
+				<form-control name="password" [group]="loginForm" [formType]="formTypes.Password" placeholder="auth.password"></form-control>
+			</label>
+		</div>
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary btn-block btn-raised" [disabled]="loginForm.invalid">
+				<span [hidden]="isLoading">{{'auth.submit' | translate}}</span>
+				<span [hidden]="!isLoading">
+					<i class="fa fa-asterisk fa-3x"> </i>
+				</span>
+			</button>
+		</div>
+		<a [routerLink]="['/auth/register']">{{'auth.noAccount' | translate}}</a>
+	</form>
+</fieldset>

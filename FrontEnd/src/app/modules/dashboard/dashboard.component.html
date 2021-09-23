@@ -1,0 +1,22 @@
+<div class="main-content">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6" *ngFor="let stat of stats">
+				<card-stats [data]="stat"></card-stats>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4" *ngFor="let chart of charts">
+				<card-chart [data]="chart"></card-chart>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12" *ngFor="let list of lists">
+				<card-list [data]="list"></card-list>
+			</div>
+			<div class="col-lg-0 col-md-12" *ngFor="let table of tables">
+				<card-table [data]="table"></card-table>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dakota Rice",
+      "country": "female",
+      "city": "Removal of Dental Braces",
+      "cost": "$368",
+      "date": "1971-03-19"
+    },
+    {
+      "id": 2,
+      "name": "Minerva Hooper",
+      "country": "female",
+      "city": "Teeth Cleaning",
+      "cost": "$73",
+      "date": "1990-06-17"
+    },
+    {
+      "id": 3,
+      "name": "Sage Rodriguez",
+      "country": "male",
+      "city": "Wisdom tooth extraction",
+      "cost": "$267",
+      "date": "1993-05-29"
+    },
+    {
+      "id": 4,
+      "name": "Philip Chaney",
+      "country": "male",
+      "city": "Dental implant placement",
+      "cost": "$1,738",
+      "date": "1987-04-19"
+    },
+    {
+      "id": 5,
+      "name": "Doris Greene",
+      "country": "male",
+      "city": "Dental crown",
+      "cost": "$110",
+      "date": "1996-08-21"
+    }
+  ],
+  "usersFullInfo": [
+    {
+      "id": 1,
+      "userName": "john1965",
+      "email": "john_williams@gmail.com",
+      "firstName": "Dr. John",
+      "lastName": "Williams ",
+      "adress": "Bulgaria, Sofia, str. Vitosha 89",
+      "city": "02 589 557",
+      "country": "55 BGN",
+      "code": "45 BGN",
+      "info": "Dr. John Williams is the principal dentist at the Smile Lab. He started his journey at the Arizona School of Dentistry and Oral Health, where he became a fully qualified dentist. From graduation to this day he strives to have a positive influence on the lives of many by creating unique, beautiful and confident smiles. He enjoys all aspects of general dentistry with special interest in Preventive dentistry, Restorative dentistry and Crown and bridge work.",
+      "role": "Doctor"
+    }
+  ],
+  "dashboard": {
+    "list": {
+      "users": [
+        {
+          "id": 1,
+          "checked": true,
+          "text": "Dakota Rice"
+        },
+        {
+          "id": 2,
+          "checked": false,
+          "text": "Minerva Hooper"
+        },
+        {
+          "id": 3,
+          "checked": false,
+          "text": "Sage Rordiguez"
+        },
+        {
+          "id": 4,
+          "checked": true,
+          "text": "Doris Greene"
+        }
+      ],
+      "tasks": [
+        {
+          "id": 5,
+          "checked": true,
+          "text": "Removal of Dental Braces"
+        },
+        {
+          "id": 6,
+          "checked": false,
+          "text": "Wisdom tooth extraction"
+        }
+      ],
+      "server": [
+        {
+          "id": 7,
+          "checked": false,
+          "text": "To remove your braces, your orthodontist will use a special metal device to loosen each of the brackets on your teeth. This will usually pop your braces brackets and wires off in one piece."
+        },
+        {
+          "id": 8,
+          "checked": true,
+          "text": "Wisdom tooth extraction is a surgical procedure to remove one or more wisdom teeth, the four permanent adult teeth located at the back corners of your mouth on the top and bottom."
+        },
+        {
+          "id": 9,
+          "checked": true,
+          "text": "Dental implant surgery is a procedure that replaces tooth roots with metal, screwlike posts and replaces damaged or missing teeth with artificial teeth that look and function much like real ones."
+        }
+      ]
+    }
+  }
+}

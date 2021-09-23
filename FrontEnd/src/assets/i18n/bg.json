@@ -1,0 +1,202 @@
+{
+  "navigation": {
+    "title": "The Smile Lab",
+    "contacts": "Team",
+    "aboutUs": "Procedures",
+    "contactUs": "Services",
+    "login": "Login",
+    "firstPart": "Team",
+    "secondPart": "Procedures",
+    "thirdPart": "Services"
+  },
+  "messages": {
+    "SuccessRegister": "User registers successfully!",
+    "wrongLogin": "Invalid username or password",
+    "SuccessUpdateUser": "User has been updated successfully!"
+  },
+  "errors": {
+    "required": "{{field}} is required.",
+    "invalidPassword": "Invalid password. Password must be at least 6 characters long, and contain a number.",
+    "maxlength": "{{field}} can't contain more than {{requiredLength}} characters.",
+    "minlength": "{{field}} must contain atleast {{requiredLength}} characters."
+  },
+  "navBar": {
+    "organisation": "Organisation",
+    "aboutUs": "About us",
+    "blog": "Blog",
+    "toggle": "Toggle navigation"
+  },
+  "helper": {
+    "loading": "Loading",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "sidebar": {
+    "stats": "Stats",
+    "actions": "Some Actions",
+    "action1": "Mike John responded to your email",
+    "action2": "You have 5 new tasks",
+    "action3": "You're now friend with Andrew",
+    "action4": "Another Notification",
+    "action5": "Another One",
+    "account": "Account",
+    "search": "Search...",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "layout": {
+    "sidebar": "Sidebar Filters",
+    "images": "Images"
+  },
+  "auth": {
+    "userName": "Username",
+    "password": "Password",
+    "noAccount": "Don't have an account? Sign up here!",
+    "submit": "Submit",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "registered": "Got an account already? Log in here!",
+    "signUp": "Sing Up"
+  },
+  "tables": {
+    "header1": "Meet our team",
+    "header2": "Table on Plain Background",
+    "header3": "Table with filers, sort, order, pagination",
+    "desc": "This is a list of all specialists at The Smile Lab",
+    "noData": "No data matching the filter",
+    "filter": "Filter",
+    "country": "Country",
+    "city": "City",
+    "startDate": "Start Date",
+    "dateRange": "Date Range",
+    "endDate": "End Date"
+  },
+  "user": {
+    "edit": "Edit Profile",
+    "complete": "Complete your profile",
+    "company": "Company (disabled)",
+    "userName": "UserName",
+    "email": "Email address",
+    "firstName": "Fist Name",
+    "lastName": "Last Name",
+    "adress": "Address",
+    "city": "Phone",
+    "country": "First consultation fee",
+    "code": "Second consultation fee",
+    "info": "Professional statement",
+    "aboutMe": "About me",
+    "updateProfile": "Update Profile",
+    "role": "Role",
+    "changeImage": "Change Image"
+  },
+  "calendar": {
+    "title": "Google Calendar"
+  },
+  "service": {
+    "headline1": "Dr. John Williams, Dentist ",
+    "headline2": "Dr. Lea Brown, Oral Surgeon",
+    "headline3": "Ellie Smith, Dental Assistant",
+    "description1": "Dr. John Williams is the principal dentist at the Smile Lab. He started his journey at the Arizona School of Dentistry and Oral Health, where he became a fully qualified dentist. From graduation to this day he strives to have a positive influence on the lives of many by creating unique, beautiful and confident smiles. He enjoys all aspects of general dentistry with special interest in Preventive dentistry, Restorative dentistry and Crown and bridge work.",
+    "description2": "Dr. Lea Brown is an oral surgeon at The Smile Lab. She obtained her Bachelor of Dental Surgery from Germany in 1997 and has over twenty years of experience in clinical practice. As an oral and maxillofacial surgeon,  Dr. Lea Brown performs many types of surgical procedures in and about the entire face, mouth, and jaw area. She treats accident victims who suffer facial injuries and offer reconstructive and dental implant surgery. She also treats patients with tumors and cysts of the jaws. ",
+    "description3": "Ellie Smith started May of 2021 her certificate III in dental assisting at The Smile Lab. Since starting as an assistant with Dr. John Williams, she has become very passionate about all things dental. She loves meeting and getting to know the patients and working alongsideDr. John Williams."
+  },
+  "aboutUs": {
+    "headline1": "Examinations, scale and clean",
+    "headline2": "Wisdom Teeth Extraction",
+    "headline3": "Dental Implants",
+    "description1": "Preventative dental care is one of the most important things you can do to keep your teeth and gums healthy. Because so many dental problems may be avoided, our goal is to help you maintain your oral health while reducing the chance of minor concerns becoming serious ones.",
+    "description2": "Whether it's due to an emergency or years of gum disease, extracting a tooth is a simple procedure that provides immediate relief from infections, pain, or as part of a full mouth rehabilitation. An extraction is usually the best option if it is not possible to preserve the tooth healthy or return it to full function.",
+    "description3": "Modern dental implants make replacing missing teeth more predictable and effective than ever before. We have a variety of implant choices to select from, whether you only have one lost tooth or want to replace your removable denture with something more permanent."
+  },
+  "contacts": {
+    "headline1": "Find the doctor you need",
+    "headline2": "Patient reminders",
+    "headline3": "Appointment booking",
+    "description1": "In The Smile Lab, you can browse a list of doctors, with various specialties and expertise. Once you find the doctor you need, you can request an appointment",
+    "description2": " Whenever an appointment is about to start, we'll automatically send out an email from Gmail at the pre-defined time before it begins so no one forgets your dates again.",
+    "description3": "You can schedule an appointment at your convenience. You can also receive confirmation emails for successfully booked appointments. You can cancel anytime. Just give us your email address and we will send you a direct link to our Google Calendar. "
+  },
+  "maps": {
+    "title": "Maps",
+    "from": "From",
+    "destination": "Destination",
+    "nearMe": "Near Me",
+    "search": "Search"
+  },
+  "email": {
+    "title": "Email",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "error": "Error in sending email",
+    "success": "Email was sent successfully"
+  },
+  "item": {
+    "headline1": "Services",
+    "headline2": "Second Part",
+    "headline3": "Third Part",
+    "description1": "First Part Description",
+    "description2": "Second Part Description",
+    "description3": "Third Part Description"
+  },
+  "mainPage": {
+    "name": "The Smile Lab",
+    "description": "The best choice for your ideal smile",
+    "goToHeader": "Go to Header",
+    "work": "Let's get to work and make your business great."
+  },
+  "dashboard": {
+    "chart1": {
+      "title": "Monthly revenue of the clinic - August",
+      "description": "increase in operations for the last month.",
+      "footer": "updated 4 hours ago"
+    },
+    "chart2": {
+      "title": "New patients",
+      "description": "Annual review of the number of new patients per month per dental praxis",
+      "footer": "updated last month"
+    },
+    "chart3": {
+      "title": "Completed Appointments",
+      "description": "Measuring the dental clinic performance",
+      "footer": "updated 1 week ago"
+    },
+    "stats1": {
+      "title": "49/52",
+      "category": "Completed Appointments",
+      "footer": "Last Month"
+    },
+    "stats2": {
+      "title": "$34,245",
+      "category": "Dental Praxis Income",
+      "footer": "Last 6 months"
+    },
+    "stats3": {
+      "title": "12",
+      "category": "Implant Surgeries",
+      "footer": "Last 2 Months"
+    },
+    "stats4": {
+      "title": "+15",
+      "category": "New Patients",
+      "footer": "Last Week"
+    },
+    "table1": {
+      "title": "New Users",
+      "category": "New Users on 15th September, 2016"
+    },
+    "list1": {
+      "header": "Appointments",
+      "tab1": {
+        "header": "Patients"
+      },
+      "tab2": {
+        "header": "Procedure Name"
+      },
+      "tab3": {
+        "header": "Procedure Description"
+      }
+    }
+  }
+}

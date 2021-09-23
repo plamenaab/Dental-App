@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="3.1.0" />
+    <PackageReference Include="FluentAssertions" Version="5.4.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DentalApp.Api.Common\DentalApp.Api.Common.csproj" />
+    <ProjectReference Include="..\DentalApp.Api.Models\DentalApp.Api.Models.csproj" />
+    <ProjectReference Include="..\DentalApp.Data.Access\DentalApp.Data.Access.csproj" />
+    <ProjectReference Include="..\DentalApp.Data.Model\DentalApp.Data.Model.csproj" />
+    <ProjectReference Include="..\DentalApp.Security\DentalApp.Security.csproj" />
+  </ItemGroup>
+
+</Project>

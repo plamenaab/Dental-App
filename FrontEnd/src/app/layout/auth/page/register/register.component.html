@@ -1,0 +1,28 @@
+<form (ngSubmit)="register()" [formGroup]="registerForm">
+	<div class="form-group">
+		<label class="d-block">
+			<form-control name="firstName" [group]="registerForm" [formType]="formTypes.Text" placeholder="auth.firstName"></form-control>
+		</label>
+	</div>
+	<div class="form-group">
+		<label class="d-block">
+			<form-control name="lastName" [group]="registerForm" [formType]="formTypes.Text" placeholder="auth.lastName"></form-control>
+		</label>
+	</div>
+	<div class="form-group">
+		<label class="d-block">
+			<form-control name="userName" [group]="registerForm" [formType]="formTypes.Text" placeholder="auth.userName"></form-control>
+		</label>
+	</div>
+	<div class="form-group">
+		<label class="d-block">
+			<form-control name="password" [group]="registerForm" [formType]="formTypes.Password" placeholder="auth.password"></form-control>
+		</label>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-primary btn-block btn-raised" type="submit" [disabled]="registerForm.invalid">
+			<span>{{'auth.signUp' | translate}}</span>
+		</button>
+	</div>
+	<a [routerLink]="['/auth/login']">{{'auth.registered' | translate}}</a>
+</form>

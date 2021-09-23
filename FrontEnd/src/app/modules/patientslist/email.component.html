@@ -1,0 +1,32 @@
+<div class="main-content">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header card-header-danger">
+						<h4 class="card-title ">List of Patients</h4>
+						<p class="card-category">Detailed information about patient's background</p>
+					</div>
+					<div class="card-body">
+						<div class="table-responsive" id="r">
+							<table class="table">
+								<thead class=" text-primary">
+								<th *ngFor="let colum of displayColumns">
+									{{colum.name}}
+								</th>
+								</thead>
+								<tbody>
+									<tr *ngFor="let value of data">
+										<td *ngFor="let item of value | values">
+											{{item}}
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

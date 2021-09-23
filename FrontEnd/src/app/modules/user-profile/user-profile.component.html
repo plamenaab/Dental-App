@@ -1,0 +1,87 @@
+<div class="main-content">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="card">
+					<div class="card-header card-header-danger">
+						<h4 class="card-title">{{"user.edit" | translate}}</h4>
+						<p class="card-category">{{"user.complete" | translate}}</p>
+					</div>
+					<div class="card-body">
+						<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+							<div class="row">
+								<div class="col-md-5">
+									<form-control name="role" [group]="profileForm" [formType]="formTypes.Text" placeholder="user.role" isDisabled="true"></form-control>
+								</div>
+								<div class="col-md-3">
+									<form-control name="userName" [group]="profileForm" [formType]="formTypes.Text" placeholder="user.userName"></form-control>
+								</div>
+								<div class="col-md-4">
+									<form-control name="email" [group]="profileForm" [formType]="formTypes.Text" placeholder="user.email"></form-control>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<form-control name="firstName" [group]="profileForm" [formType]="formTypes.Text" placeholder="user.firstName"></form-control>
+								</div>
+								<div class="col-md-6">
+									<form-control name="lastName" [group]="profileForm" [formType]="formTypes.Text" placeholder="user.lastName"></form-control>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<form-control name="adress" [group]="profileForm" [formType]="formTypes.Text" placeholder="user.adress"></form-control>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<form-control name="city" [group]="profileForm" [formType]="formTypes.Text" placeholder="user.city"></form-control>
+								</div>
+								<div class="col-md-4">
+									<form-control name="country" [group]="profileForm" [formType]="formTypes.Text" placeholder="user.country"></form-control>
+								</div>
+								<div class="col-md-4">
+									<form-control name="code" [group]="profileForm" [formType]="formTypes.Text" placeholder="user.code"></form-control>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<label>{{'user.aboutMe' | translate}}</label>
+									<form-control name="info" [group]="profileForm" [formType]="formTypes.TextArea" placeholder="user.info"></form-control>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-12">
+									<h4 style="text-align: center">{{'user.changeImage' | translate}}</h4>
+									<div class="uploadfilecontainer" (click)="fileInput.click()">
+										<input hidden type="file" #fileInput (change)="onFileChange($event)">
+									</div>
+								</div>
+							</div>
+
+							<button mat-raised-button type="submit" class="btn btn-danger pull-right" [disabled]="!profileForm.valid">{{'user.updateProfile' | translate}}</button>
+							<div class="clearfix"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card card-profile">
+					<div class="card-avatar">
+						<a href="javascript:void(0)">
+							<img class="img" [src]="image" style="height:130px; width:130px;"/>
+						</a>
+					</div>
+					<div class="card-body">
+						<h6 class="card-category text-gray">{{profileForm.controls['role'].value}}</h6>
+						<h4 class="card-title">{{profileForm.controls['firstName'].value}} {{profileForm.controls['lastName'].value}}</h4>
+						<p class="card-description">
+							{{profileForm.controls['info'].value}}
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,533 @@
+/* --------------------------------
+
+Nucleo Outline Web Font - nucleoapp.com/
+License - nucleoapp.com/license/
+Created using IcoMoon - icomoon.io
+
+-------------------------------- */
+
+@font-face {
+  font-family: 'Nucleo Outline';
+  src: url('../../fonts/nucleo-outline.eot');
+  src: url('../../fonts/nucleo-outline.eot') format('embedded-opentype'),
+  url('../../fonts/nucleo-outline.woff2') format('woff2'),
+  url('../../fonts/nucleo-outline.woff') format('woff'),
+  url('../../fonts/nucleo-outline.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------
+	base class definition
+-------------------------*/
+
+.tech-netic-icons {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Nucleo Outline';
+  font-size: inherit;
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------
+  change icon size
+-------------------------*/
+
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+
+.tech-netic-icons.circle {
+  padding: 0.33333333em;
+  vertical-align: -16%;
+  background-color: #eee;
+}
+
+.tech-netic-icons.circle {
+  border-radius: 50%;
+}
+
+/*------------------------
+  list icons
+-------------------------*/
+
+.nc-icon-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+
+.nc-icon-ul > li {
+  position: relative;
+}
+
+.nc-icon-ul > li > .tech-netic-icons {
+  position: absolute;
+  left: -1.57142857em;
+  top: 0.14285714em;
+  text-align: center;
+}
+
+.nc-icon-ul > li > .tech-netic-icons.circle {
+  top: -0.19047619em;
+  left: -1.9047619em;
+}
+
+/*------------------------
+  spinning icons
+-------------------------*/
+
+.tech-netic-icons.spin {
+  -webkit-animation: nc-icon-spin 2s infinite linear;
+  -moz-animation: nc-icon-spin 2s infinite linear;
+  animation: nc-icon-spin 2s infinite linear;
+}
+
+@-webkit-keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes nc-icon-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+
+/*------------------------
+	font icons
+-------------------------*/
+
+.tech-netic-icons.ui-1_check:before{
+    content: "\ea22";
+}
+
+.tech-netic-icons.ui-1_email-85:before {
+  content: "\ea2a";
+}
+
+.tech-netic-icons.arrows-1_cloud-download-93:before {
+  content: "\ea21";
+}
+
+.tech-netic-icons.arrows-1_cloud-upload-94:before {
+  content: "\ea24";
+}
+
+.tech-netic-icons.arrows-1_minimal-down:before {
+  content: "\ea39";
+}
+
+.tech-netic-icons.arrows-1_minimal-left:before {
+  content: "\ea3a";
+}
+
+.tech-netic-icons.arrows-1_minimal-right:before {
+  content: "\ea3b";
+}
+
+.tech-netic-icons.arrows-1_minimal-up:before {
+  content: "\ea3c";
+}
+
+.tech-netic-icons.arrows-1_refresh-69:before {
+  content: "\ea44";
+}
+
+.tech-netic-icons.arrows-1_share-66:before {
+  content: "\ea4c";
+}
+
+.tech-netic-icons.business_badge:before {
+  content: "\ea09";
+}
+
+.tech-netic-icons.business_bank:before {
+  content: "\ea0a";
+}
+
+.tech-netic-icons.business_briefcase-24:before {
+  content: "\ea13";
+}
+
+.tech-netic-icons.business_bulb-63:before {
+  content: "\ea15";
+}
+
+.tech-netic-icons.business_chart-bar-32:before {
+  content: "\ea1e";
+}
+
+.tech-netic-icons.business_chart-pie-36:before {
+  content: "\ea1f";
+}
+
+.tech-netic-icons.business_globe:before {
+  content: "\ea2f";
+}
+
+.tech-netic-icons.business_money-coins:before {
+  content: "\ea40";
+}
+
+.tech-netic-icons.clothes_tie-bow:before {
+  content: "\ea5b";
+}
+
+.tech-netic-icons.design_vector:before {
+  content: "\ea61";
+}
+
+.tech-netic-icons.design_app:before {
+  content: "\ea08";
+}
+
+.tech-netic-icons.design_bullet-list-67:before {
+  content: "\ea14";
+}
+
+.tech-netic-icons.design_image:before {
+  content: "\ea33";
+}
+
+.tech-netic-icons.design_palette:before {
+  content: "\ea41";
+}
+
+.tech-netic-icons.design_scissors:before {
+  content: "\ea4a";
+}
+
+.tech-netic-icons.design-2_html5:before {
+  content: "\ea32";
+}
+
+.tech-netic-icons.design-2_ruler-pencil:before {
+  content: "\ea48";
+}
+
+.tech-netic-icons.emoticons_satisfied:before {
+  content: "\ea49";
+}
+
+.tech-netic-icons.files_box:before {
+  content: "\ea12";
+}
+
+.tech-netic-icons.files_paper:before {
+  content: "\ea43";
+}
+
+.tech-netic-icons.files_single-copy-04:before {
+  content: "\ea52";
+}
+
+.tech-netic-icons.health_ambulance:before {
+  content: "\ea07";
+}
+
+.tech-netic-icons.loader_gear:before {
+  content: "\ea4e";
+}
+
+.tech-netic-icons.loader_refresh:before {
+  content: "\ea44";
+}
+
+.tech-netic-icons.location_bookmark:before {
+  content: "\ea10";
+}
+
+.tech-netic-icons.location_compass-05:before {
+  content: "\ea25";
+}
+
+.tech-netic-icons.location_map-big:before {
+  content: "\ea3d";
+}
+
+.tech-netic-icons.location_pin:before {
+  content: "\ea47";
+}
+
+.tech-netic-icons.location_world:before {
+  content: "\ea63";
+}
+
+.tech-netic-icons.media-1_album:before {
+  content: "\ea02";
+}
+
+.tech-netic-icons.media-1_button-pause:before {
+  content: "\ea16";
+}
+
+.tech-netic-icons.media-1_button-play:before {
+  content: "\ea18";
+}
+
+.tech-netic-icons.media-1_button-power:before {
+  content: "\ea19";
+}
+
+.tech-netic-icons.media-1_camera-compact:before {
+  content: "\ea1c";
+}
+
+.tech-netic-icons.media-2_note-03:before {
+  content: "\ea3f";
+}
+
+.tech-netic-icons.media-2_sound-wave:before {
+  content: "\ea57";
+}
+
+.tech-netic-icons.objects_diamond:before {
+  content: "\ea29";
+}
+
+.tech-netic-icons.objects_globe:before {
+  content: "\ea2f";
+}
+
+.tech-netic-icons.objects_key-25:before {
+  content: "\ea38";
+}
+
+.tech-netic-icons.objects_planet:before {
+  content: "\ea46";
+}
+
+.tech-netic-icons.objects_spaceship:before {
+  content: "\ea55";
+}
+
+.tech-netic-icons.objects_support-17:before {
+  content: "\ea56";
+}
+
+.tech-netic-icons.objects_umbrella-13:before {
+  content: "\ea5f";
+}
+
+.tech-netic-icons.education_agenda-bookmark:before {
+  content: "\ea01";
+}
+
+.tech-netic-icons.education_atom:before {
+  content: "\ea0c";
+}
+
+.tech-netic-icons.education_glasses:before {
+  content: "\ea2d";
+}
+
+.tech-netic-icons.education_hat:before {
+  content: "\ea30";
+}
+
+.tech-netic-icons.education_paper:before {
+  content: "\ea42";
+}
+
+.tech-netic-icons.shopping_bag-16:before {
+  content: "\ea0d";
+}
+
+.tech-netic-icons.shopping_basket:before {
+  content: "\ea0b";
+}
+
+.tech-netic-icons.shopping_box:before {
+  content: "\ea11";
+}
+
+.tech-netic-icons.shopping_cart-simple:before {
+  content: "\ea1d";
+}
+
+.tech-netic-icons.shopping_credit-card:before {
+  content: "\ea28";
+}
+
+.tech-netic-icons.shopping_delivery-fast:before {
+  content: "\ea27";
+}
+
+.tech-netic-icons.shopping_shop:before {
+  content: "\ea50";
+}
+
+.tech-netic-icons.shopping_tag-content:before {
+  content: "\ea59";
+}
+
+.tech-netic-icons.sport_trophy:before {
+  content: "\ea5d";
+}
+
+.tech-netic-icons.sport_user-run:before {
+  content: "\ea60";
+}
+
+.tech-netic-icons.tech_controller-modern:before {
+  content: "\ea26";
+}
+
+.tech-netic-icons.tech_headphones:before {
+  content: "\ea31";
+}
+
+.tech-netic-icons.tech_laptop:before {
+  content: "\ea36";
+}
+
+.tech-netic-icons.tech_mobile:before {
+  content: "\ea3e";
+}
+
+.tech-netic-icons.tech_tablet:before {
+  content: "\ea58";
+}
+
+.tech-netic-icons.tech_tv:before {
+  content: "\ea5e";
+}
+
+.tech-netic-icons.tech_watch-time:before {
+  content: "\ea62";
+}
+
+.tech-netic-icons.text_align-center:before {
+  content: "\ea05";
+}
+
+.tech-netic-icons.text_align-left:before {
+  content: "\ea06";
+}
+
+.tech-netic-icons.text_bold:before {
+  content: "\ea0e";
+}
+
+.tech-netic-icons.text_caps-small:before {
+  content: "\ea1b";
+}
+
+.tech-netic-icons.gestures_tap-01:before {
+  content: "\ea5a";
+}
+
+.tech-netic-icons.transportation_air-baloon:before {
+  content: "\ea03";
+}
+
+.tech-netic-icons.transportation_bus-front-12:before {
+  content: "\ea17";
+}
+
+.tech-netic-icons.travel_info:before {
+  content: "\ea04";
+}
+
+.tech-netic-icons.travel_istanbul:before {
+  content: "\ea34";
+}
+
+.tech-netic-icons.ui-1_bell-53:before {
+  content: "\ea0f";
+}
+
+.tech-netic-icons.ui-1_calendar-60:before {
+  content: "\ea1a";
+}
+
+.tech-netic-icons.ui-1_lock-circle-open:before {
+  content: "\ea35";
+}
+
+.tech-netic-icons.ui-1_send:before {
+  content: "\ea4d";
+}
+
+.tech-netic-icons.ui-1_settings-gear-63:before {
+  content: "\ea4e";
+}
+
+.tech-netic-icons.ui-1_simple-add:before {
+  content: "\ea4f";
+}
+
+.tech-netic-icons.ui-1_simple-delete:before {
+  content: "\ea54";
+}
+
+.tech-netic-icons.ui-1_simple-remove:before {
+  content: "\ea53";
+}
+
+.tech-netic-icons.ui-1_zoom-bold:before {
+  content: "\ea64";
+}
+
+.tech-netic-icons.ui-2_chat-round:before {
+  content: "\ea20";
+}
+
+.tech-netic-icons.ui-2_favourite-28:before {
+  content: "\ea2b";
+}
+
+.tech-netic-icons.ui-2_like:before {
+  content: "\ea37";
+}
+
+.tech-netic-icons.ui-2_settings-90:before {
+  content: "\ea4b";
+}
+
+.tech-netic-icons.ui-2_time-alarm:before {
+  content: "\ea5c";
+}
+
+.tech-netic-icons.users_circle-08:before {
+  content: "\ea23";
+}
+
+.tech-netic-icons.users_single-02:before {
+  content: "\ea51";
+}

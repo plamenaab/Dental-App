@@ -1,0 +1,180 @@
+{
+  "navigation": {
+    "title": "Template",
+    "contacts": "Contacts",
+    "aboutUs": "About us",
+    "contactUs": "Contact Us",
+    "enter": "Enter",
+    "firstPart": "First Part",
+    "secondPart": "Second Part",
+    "thirdPart": "Third Part"
+  },
+  "messages": {
+    "SuccessRegister": "User registers successfully!",
+    "wrongLogin": "Invalid username or password",
+    "SuccessUpdateUser": "User has been updated successfully!"
+  },
+  "errors": {
+    "required": "{{field}} is required.",
+    "invalidPassword": "Invalid password. Password must be at least 6 characters long, and contain a number.",
+    "maxlength": "{{field}} can't contain more than {{requiredLength}} characters.",
+    "minlength": "{{field}} must contain atleast {{requiredLength}} characters."
+  },
+  "navBar": {
+    "organisation": "Organisation",
+    "aboutUs": "About us",
+    "blog": "Blog",
+    "toggle": "Toggle navigation"
+  },
+  "helper": {
+    "loading": "Loading",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "sidebar": {
+    "stats": "Stats",
+    "actions": "Some Actions",
+    "action1": "Mike John responded to your email",
+    "action2": "You have 5 new tasks",
+    "action3": "You're now friend with Andrew",
+    "action4": "Another Notification",
+    "action5": "Another One",
+    "account": "Account",
+    "search": "Search...",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "layout": {
+    "sidebar": "Sidebar Filters",
+    "images": "Images"
+  },
+  "auth": {
+    "userName": "Username",
+    "password": "Password",
+    "noAccount": "Don't have an account? Sign up here!",
+    "submit": "Submit",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "registered": "Got an account already? Log in here!",
+    "signUp": "Sing Up"
+  },
+  "tables": {
+    "header1": "Simple Table",
+    "header2": "Table on Plain Background",
+    "header3": "Table with filers, sort, order, pagination",
+    "desc": "Here is a subtitle for this table",
+    "noData": "No data matching the filter",
+    "filter": "Filter",
+    "country": "Country",
+    "city": "City",
+    "startDate": "Start Date",
+    "dateRange": "Date Range",
+    "endDate": "End Date"
+  },
+  "user": {
+    "edit": "Edit Profile",
+    "complete": "Complete your profile",
+    "company": "Company (disabled)",
+    "userName": "UserName",
+    "email": "Email address",
+    "firstName": "Fist Name",
+    "lastName": "Last Name",
+    "adress": "Adress",
+    "city": "City",
+    "country": "Country",
+    "code": "Postal Code",
+    "info": "Info about me",
+    "aboutMe": "About me",
+    "updateProfile": "Update Profile",
+    "role": "Role",
+    "changeImage": "Change Image"
+  },
+  "calendar": {
+    "title": "Google Default Calendar"
+  },
+  "maps": {
+    "title": "Maps",
+    "from": "From",
+    "destination": "Destination",
+    "nearMe": "Near Me",
+    "search": "Search"
+  },
+  "email": {
+    "title": "Email",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "error": "Error in sending email",
+    "success": "Email was sent successfully"
+  },
+  "item": {
+    "headline1": "First Part",
+    "headline2": "Second Part",
+    "headline3": "Third Part",
+    "headline4": "Fourth Part",
+    "description1": "First Part Description",
+    "description2": "Second Part Description",
+    "description3": "Third Part Description",
+    "description4": "Fourth Part Description"
+  },
+  "mainPage": {
+    "name": "Arbaiten",
+    "description": "Main Page Description",
+    "goToHeader": "Go to Header",
+    "work": "Let's get to work and make your business great."
+  },
+  "dashboard": {
+    "chart1": {
+      "title": "Daily Sales",
+      "description": "increase in today sales.",
+      "footer": "updated 4 minutes ago"
+    },
+    "chart2": {
+      "title": "Email Subscriptions",
+      "description": "Last Campaign Performance",
+      "footer": "campaign sent 2 days ago"
+    },
+    "chart3": {
+      "title": "Completed Tasks",
+      "description": "Last Campaign Performance",
+      "footer": "campaign sent 2 days ago"
+    },
+    "stats1": {
+      "title": "49/52",
+      "category": "Completed Tasks",
+      "footer": "Last Month"
+    },
+    "stats2": {
+      "title": "$34,245",
+      "category": "Revenue",
+      "footer": "Last 6 months"
+    },
+    "stats3": {
+      "title": "5",
+      "category": "Issues",
+      "footer": "Last Hour"
+    },
+    "stats4": {
+      "title": "+245",
+      "category": "Users",
+      "footer": "Just Updated"
+    },
+    "table1": {
+      "title": "New Users",
+      "category": "New Users on 15th September, 2016"
+    },
+    "list1": {
+      "header": "Tasks",
+      "tab1": {
+        "header": "Users"
+      },
+      "tab2": {
+        "header": "Jobs"
+      },
+      "tab3": {
+        "header": "Server"
+      }
+    }
+  }
+}

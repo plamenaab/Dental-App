@@ -1,0 +1,48 @@
+<div class="card">
+	<div class="card-header card-header-tabs" [class]="data.headreClass">
+		<div class="nav-tabs-navigation">
+			<div class="nav-tabs-wrapper">
+				<span class="nav-tabs-title">{{data.header | translate}}</span>
+				<ul class="nav nav-tabs" data-tabs="tabs">
+					<li class="nav-item" *ngFor="let item of data.tabs; let i = index">
+						<a mat-button class="nav-link" [href]="item.href" data-toggle="tab" [class.active]="i == 0">
+							<i class="material-icons">{{item.icon}}</i> {{item.title | translate}}
+							<div class="ripple-container"></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="card-body">
+		<div class="tab-content">
+			<div class="tab-pane" [id]="item.id" *ngFor="let item of data.contents; let i = index" [class.active]="i == 0">
+				<table class="table">
+					<tbody>
+						<tr *ngFor="let row of item.data">
+							<td>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="" [checked]="row.checked">
+										<span class="form-check-sign">
+											<span class="check"></span>
+										</span>
+									</label>
+								</div>
+							</td>
+							<td>{{row.text}}</td>
+							<!--<td class="td-actions text-right">
+								<button mat-raised-button type="button" (click)="edit(row.id)" [matTooltip]="'helper.edit' | translate" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+									<i class="material-icons">edit</i>
+								</button>
+								<button mat-raised-button type="button" (click)="delete(row.id)" [matTooltip]="'helper.delete' | translate" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+									<i class="material-icons">close</i>
+								</button>
+							</td>-->
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
