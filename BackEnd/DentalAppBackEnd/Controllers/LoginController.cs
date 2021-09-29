@@ -1,8 +1,10 @@
 ﻿using System.Threading.Tasks;
 using DentalApp.Api.Models.Login;
+using DentalApp.Api.Models.Patient;
 using DentalApp.Api.Models.Users;
 using DentalApp.Filters;
 using DentalApp.Maps;
+using DentalApp.Queries.Models;
 using DentalApp.Queries.Queries;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -24,21 +26,19 @@ namespace DentalApp.Controllers
 
         [HttpPost("Authenticate")]
         [ValidateModel]
-        public UserWithTokenModel Authenticate([FromBody] LoginModel model)
+        public UserWithToken Authenticate([FromBody] LoginModel model)
         {
             var result = _query.Authenticate(model.Username, model.Password);
 
-            var resultModel = _mapper.Map<UserWithTokenModel>(result);
-
-            return resultModel;
+            return result;
         }
 
         [HttpPost("Register")]
         [ValidateModel]
-        public async Task<UserModel> Register([FromBody] RegisterModel model)
+        public async Task<PatientModel> Register([FromBody] RegisterModel model)
         {
             var result = await _query.Register(model);
-            var resultModel = _mapper.Map<UserModel>(result);
+            var resultModel = _mapper.Map<PatientModel>(result);
             return resultModel;
         }
 

@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using DentalApp.Api.Common.Exceptions;
 using DentalApp.Api.Models.Common;
@@ -28,7 +29,7 @@ namespace DentalApp.Queries.Queries
 
         private IQueryable<User> GetQuery()
         {
-            return _uow.Query<User>();
+            return _uow.Query<Doctor>();
         }
 
         public User Get(int id)
@@ -52,16 +53,24 @@ namespace DentalApp.Queries.Queries
                 throw new BadRequestException("The username is already in use");
             }
 
-            var user = new User
+            var user = new Patient
             {
                 UserName = model.Username.Trim(),
                 Password = model.Password.Trim().WithBCrypt(),
                 FirstName = model.FirstName.Trim(),
                 LastName = model.LastName.Trim(),
+                RoleID = 1
             };
 
             _uow.Add(user);
-            await _uow.CommitAsync();
+            try
+            {
+                await _uow.CommitAsync();
+            }
+            catch (Exception ex)
+            {
+
+            }
 
             return user;
         }
@@ -80,7 +89,7 @@ namespace DentalApp.Queries.Queries
             user.LastName = model.LastName;
             user.Email = model.Email;
             user.Address = model.Address;
-            
+
             await _uow.CommitAsync();
             return user;
         }

@@ -34,7 +34,12 @@ export class UserService {
     }
 
     public login(userName: string, password: string): Observable<LoggedUser> {
-        return this.jsonApiService.get("/login", userName, password);
+        var user =
+        {
+            userName: userName,
+            password: password
+        }
+        return this.http.post<LoggedUser>({ url: 'login/Authenticate', body: user, snackBarMessage: "SuccessUpdateUser" })
     }
 
     public logout() {
@@ -44,6 +49,6 @@ export class UserService {
 
     public register(user: RegisterUser): Observable<RegisterUser> {
         var userReg = new RegisterUser();
-        return of(userReg);
+        return this.http.post<RegisterUser>({ url: 'login/register', body: user, snackBarMessage: "SuccessUpdateUser" })
     }
 }

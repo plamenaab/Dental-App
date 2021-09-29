@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 using DentalApp.Api.Common.Exceptions;
@@ -33,8 +34,8 @@ namespace DentalApp.Queries.Queries
 
         public UserWithToken Authenticate(string username, string password)
         {
-            var user = (from u in _uow.Query<User>()
-                        where u.UserName == username 
+            var user = (from u in _uow.Query<Patient>()
+                        where u.UserName == username
                         select u)
                 .Include(x => x.Role)
                 .FirstOrDefault();
