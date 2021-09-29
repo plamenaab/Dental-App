@@ -37,8 +37,6 @@ const routes: Routes = [
             { path: 'doctor-info3', component: DoctorInfoComponent3 },
             { path: 'doctor-info4', component: DoctorInfoComponent4 },
             { path: 'doctor-info5', component: DoctorInfoComponent5 }
-            //{ path: 'doctor-info6', component: DoctorInfoComponent6 },
-            //{ path: 'doctor-info7', component: DoctorInfoComponent7 }
         ]
     },
     {

@@ -96,25 +96,25 @@
     "headline1": "Dr. John Williams, Dentist ",
     "headline2": "Dr. Lea Brown, Oral Surgeon",
     "headline3": "Ellie Smith, Dental Assistant",
-    "description1": "Dr. John Williams is the principal dentist at the Smile Lab. He started his journey at the Arizona School of Dentistry and Oral Health, where he became a fully qualified dentist. From graduation to this day he strives to have a positive influence on the lives of many by creating unique, beautiful and confident smiles. He enjoys all aspects of general dentistry with special interest in Preventive dentistry, Restorative dentistry and Crown and bridge work.",
-    "description2": "Dr. Lea Brown is an oral surgeon at The Smile Lab. She obtained her Bachelor of Dental Surgery from Germany in 1997 and has over twenty years of experience in clinical practice. As an oral and maxillofacial surgeon,  Dr. Lea Brown performs many types of surgical procedures in and about the entire face, mouth, and jaw area. She treats accident victims who suffer facial injuries and offer reconstructive and dental implant surgery. She also treats patients with tumors and cysts of the jaws. ",
-    "description3": "Ellie Smith started May of 2021 her certificate III in dental assisting at The Smile Lab. Since starting as an assistant with Dr. John Williams, she has become very passionate about all things dental. She loves meeting and getting to know the patients and working alongsideDr. John Williams."
+    "description1": "Dr. John Williams ist der Hauptzahnarzt im Smile Lab. Er begann seine Reise an der Arizona School of Dentistry and Oral Health, wo er ein vollqualifizierter Zahnarzt wurde. Von seinem Abschluss bis heute strebt er danach, das Leben vieler Menschen positiv zu beeinflussen, indem er ein einzigartiges, schönes und selbstbewusstes Lächeln kreiert. Er genießt alle Aspekte der allgemeinen Zahnheilkunde mit besonderem Interesse an präventiver Zahnheilkunde, restaurativer Zahnheilkunde und Kronen- und Brückenarbeiten.",
+    "description2": "Dr. Lea Brown ist Oralchirurgin im The Smile Lab. Sie hat 1997 ihren Bachelor in Zahnchirurgie in Deutschland gemacht und verfügt über mehr als zwanzig Jahre Erfahrung in der klinischen Praxis. Als Mund-, Kiefer- und Gesichtschirurgin führt Dr. Lea Brown viele Arten von chirurgischen Eingriffen im und um den gesamten Gesichts-, Mund- und Kieferbereich durch. Sie behandelt Unfallopfer mit Gesichtsverletzungen und bietet rekonstruktive und zahnimplantatchirurgische Eingriffe an. Sie behandelt auch Patienten mit Tumoren und Zysten des Kiefers. ",
+    "description3": "Ellie Smith hat im Mai 2021 ihr Zertifikat III in zahnärztlicher Assistenz im The Smile Lab begonnen. Seit sie als Assistentin bei Dr. John Williams anfing, hat sie eine große Leidenschaft für alles, was mit Zahnmedizin zu tun hat. Sie liebt es, die Patienten zu treffen und kennenzulernen und mit Dr. John Williams."
   },
   "aboutUs": {
-    "headline1": "Examinations, scale and clean",
-    "headline2": "Wisdom Teeth Extraction",
-    "headline3": "Dental Implants",
-    "description1": "Preventative dental care is one of the most important things you can do to keep your teeth and gums healthy. Because so many dental problems may be avoided, our goal is to help you maintain your oral health while reducing the chance of minor concerns becoming serious ones.",
-    "description2": "Whether it's due to an emergency or years of gum disease, extracting a tooth is a simple procedure that provides immediate relief from infections, pain, or as part of a full mouth rehabilitation. An extraction is usually the best option if it is not possible to preserve the tooth healthy or return it to full function.",
-    "description3": "Modern dental implants make replacing missing teeth more predictable and effective than ever before. We have a variety of implant choices to select from, whether you only have one lost tooth or want to replace your removable denture with something more permanent."
+    "headline1": "Untersuchungen, skalieren und reinigen",
+    "headline2": "Extraktion der Weisheitszähne",
+    "headline3": "Zahnimplantate",
+    "description1": "Die vorbeugende Zahnpflege ist eines der wichtigsten Dinge, die Sie tun können, um Ihre Zähne und Ihr Zahnfleisch gesund zu erhalten. Da so viele Zahnprobleme vermieden werden können, ist es unser Ziel, Ihnen dabei zu helfen, Ihre Mundgesundheit zu erhalten und gleichzeitig die Wahrscheinlichkeit zu verringern, dass aus kleinen Problemen schwerwiegende werden.",
+    "description2": "Ob aufgrund eines Notfalls oder einer jahrelangen Zahnfleischerkrankung, die Extraktion eines Zahnes ist ein einfaches Verfahren, das sofortige Linderung von Infektionen, Schmerzen oder als Teil einer vollständigen Mundrehabilitation bietet. Eine Extraktion ist in der Regel die beste Option, wenn es nicht möglich ist, den Zahn gesund zu erhalten oder wieder voll funktionsfähig zu machen.",
+    "description3": "Moderne Zahnimplantate machen den Ersatz fehlender Zähne vorhersehbarer und effektiver als je zuvor. Wir haben eine Vielzahl von Implantaten zur Auswahl, egal ob Sie nur einen Zahn verloren haben oder Ihre herausnehmbare Prothese durch eine dauerhaftere ersetzen möchten."
   },
   "contacts": {
-    "headline1": "Find the doctor you need",
-    "headline2": "Patient reminders",
-    "headline3": "Appointment booking",
-    "description1": "In The Smile Lab, you can browse a list of doctors, with various specialties and expertise. Once you find the doctor you need, you can request an appointment",
-    "description2": " Whenever an appointment is about to start, we'll automatically send out an email from Gmail at the pre-defined time before it begins so no one forgets your dates again.",
-    "description3": "You can schedule an appointment at your convenience. You can also receive confirmation emails for successfully booked appointments. You can cancel anytime. Just give us your email address and we will send you a direct link to our Google Calendar. "
+    "headline1": "Finden Sie den Arzt, den Sie brauchen",
+    "headline2": "Patientenerinnerungen",
+    "headline3": "Terminbuchung",
+    "description1": "In The Smile Lab können Sie eine Liste von Ärzten mit verschiedenen Fachgebieten und Fachkenntnissen durchsuchen. Sobald Sie den gewünschten Arzt gefunden haben, können Sie einen Termin vereinbaren",
+    "description2": " Wenn ein Termin anfängt, senden wir automatisch eine E-Mail von Gmail zur vordefinierten Zeit, bevor er beginnt, damit niemand Ihre Daten wieder vergisst.",
+    "description3": "Sie können nach Belieben einen Termin vereinbaren. Sie können auch Bestätigungs-E-Mails für erfolgreich gebuchte Termine erhalten. Sie können jederzeit kündigen. Geben Sie uns einfach Ihre E-Mail-Adresse und wir senden Ihnen einen direkten Link zu unserem Google Kalender."
   },
   "maps": {
     "title": "Maps",
@@ -142,7 +142,7 @@
   },
   "mainPage": {
     "name": "The Smile Lab",
-    "description": "The best choice for your ideal smile",
+    "description": "Die beste Wahl für Ihr ideales Lächeln",
     "goToHeader": "Go to Header",
     "work": "Let's get to work and make your business great."
   },
