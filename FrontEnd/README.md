@@ -1,13 +1,3 @@
-Using Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design.
-
-Using Bootstrap framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements.
-
-The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious.
-
-The navigation stays mainly on the left sidebar and the content is on the right inside the main panel. It makes use of light, surface and movement. 
-
-Comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red and purple) and an option to have a background image on the sidebar.
-
 ## Table of Contents
 
 * [File Structure](#file-structure)
